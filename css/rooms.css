@@ -1,0 +1,18 @@
+.show_more {
+    margin-bottom: 50px;
+}
+
+#accommodation h3 {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 770px) {
+    .show_more {
+        margin-bottom: 25px;
+    }
+    
+    #accommodation h3 {
+        margin-top: 20px;
+    }
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-details">
+            <div class="header-logo"><i class="fab fa-fort-awesome"></i>Grand Hotel</div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="rooms.html">Rooms</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="book"><a  href="book.html">Book Now</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="tm-booking">
+        <form>
+            <div class="tm-form1">
+                <input type="text" name="name" id="name" placeholder="Name" autocomplete="name">  
+                <input type="email" name="email" id="email" placeholder="E-mail" autocomplete="email"> 
+                <label for="rooms" id="inlinelabel">Rooms</label>
+                <select name="rooms" id="rooms" autocomplete="off">
+                    <option value="luxurys">Luxury Suite</option>
+                    <option value="deluxs">Delux Suite</option>
+                    <option value="premiers">Premier Suite</option>
+                    <option value="Luxuryr">Luxury Room</option>
+                    <option value="deluxs">Delux Room</option>
+                    <option value="premierr">Premier Room</option>
+                </select> 
+                <div class="tm-num1" id="handleCounter1">    
+                    <label for="number1">Number of Rooms</label><br/>
+                    <input type="text" name="number1" id="number1" value="1" autocomplete="off">
+                </div>
+                <div class="tm-num2" id="handleCounter2">      
+                    <label for="number2">Number of Guests</label><br/>
+                    <input type="text" name="number2" id="number2" value="1" autocomplete="off">
+                </div>
+            </div>
+                
+            <div class="vertical-line"></div>
+                
+            <div class="tm-form2">
+                <div class="tm-cl">
+                    <label for="date1" id="arrival">Visiting Dates from Arrival to Departure</label>
+                    <input type="text" name="date1" id="date1" class="range" autocomplete="off"> 
+                    <button class="submit_btn">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>    
+
+    <section id="footer">
+        <footer>
+            <div class="main-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="book.html">Book</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <hr class="line">
+            <div class="text-bottom">
+                <p>©Copyright. All rights reserved</p>
+            </div>
+        </footer>
+      </section>
+  
+  </body>
+  </html>

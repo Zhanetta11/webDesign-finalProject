@@ -1,0 +1,129 @@
+.tm-booking{
+    margin: 30px 0px 40px 0px;
+    background: #fff;
+    position: relative;
+}
+
+.tm-form1, .tm-form2{
+    padding: 2% 5%;
+    max-width: 40%;
+    
+}
+
+.vertical-line{
+    width: 0.15%; 
+    background-color:  #ec3d68; 
+    height: 90%; 
+    position: absolute;
+    top: 6%;
+    left: 50%;
+}
+
+.tm-form1{
+    float:left;
+}
+
+.tm-form2{
+    float:right;
+}
+
+input, select, textarea {
+    font-size: 1.4vw;
+    color: #000;
+}
+
+
+label{
+    font-size: 1.7vw;
+    color: #472d30;
+    font-weight: 600;
+}
+
+.tm-booking::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+input[type=text]:nth-child(1),input[type=email],textarea{
+    display: block;
+    margin: 5%;
+    padding: 1% 3%;
+    width: 80%;  
+}
+
+textarea {
+    max-width: 80% ;
+    resize: none;
+}
+
+#rooms{
+    display: inline-block;
+    margin: 5%;
+    padding: 2% 3%;
+    width: 55%;
+}
+
+#inlinelable{
+    display: inline-block;
+    margin: 5%;
+}
+
+
+.tm-num1, .tm-num2{
+    display: inline-block;
+    max-width: 39%;
+    width: 39%;
+    margin: 5%;
+}
+
+#number1 , #number2{
+    width:30%;
+    padding: 3% 8%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.range{
+    font-size: 1.5vw;
+    margin-top: 5%;
+    margin-bottom: 50%;
+    padding: 1% 3%;
+    width: 70%;
+}
+
+.submit_btn {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #264653;
+    width: 50%;
+    height: 55px;
+    color:#fff;
+    font-size: 1.5vw;
+    font-weight:400;
+}
+
+#arrival {
+    display: block;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 770px) {
+    .tm-booking{
+        margin: 15px 0px 20px 0px;
+    }
+    .submit_btn{
+        height: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
